@@ -1,20 +1,12 @@
-body { 
-	width: 50%;
-	margin: 0 auto; 	
-}
-
-p {	
+h1 {	
 	text-align: center;
-	font-size: 2em;
-	margin: 20px auto;
 }
 
 table {
-	margin: 0 auto;
+	margin: auto;
 }
 
-table td {
-	text-align: center;	
+td {	
 	width: 100px; 
 	height: 100px;
 }
