@@ -17,10 +17,10 @@ li { color: #0000cd; }
 p { background: yellow; }
 
 /*Make all inputs (except the checkboxes) have a 3px red border*/
-input { border-width: 3px; }
+input { border: 3px solid red; }
 
 /* Give everything with the class 'hello' a white background*/
-.hello { background: #ffffff; }
+.hello { background: white; }
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
 #special { border: 2px solid rgb(0,0,150); }
@@ -35,7 +35,7 @@ input[type="text"] { background: gray; }
 div:nth-of-type(3) p { background: pink; }
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
-div:nth-of-type(3) p:nth-of-type(2) { border: 5px solid rgb(255,255,255); }
+div:nth-of-type(3) p:nth-of-type(2) { border: 5px solid white; }
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
 div:nth-of-type(3) em { color: white; font-size: 20px; }
@@ -50,7 +50,7 @@ input:checked { margin-left: 50px; }
 label { text-transform: uppercase; }
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-#special::first-letter { font-size: 100px; color: green; }
+#special:first-letter { font-size: 100px; color: green; }
 
 /*Make the <h1> element's color change to blue when hovered over */
 h1:hover { color: blue; }
