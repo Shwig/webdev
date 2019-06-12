@@ -3,6 +3,8 @@
 
 # .html
 template.html
+exfonts.html
 
 # .css
 exselectors.css
+exfonts.css
