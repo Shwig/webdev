@@ -1,0 +1,17 @@
+body {
+	background: orange;
+}
+
+li {
+	border: 2px solid red;
+}
+
+/* use #id to select a single element */
+#special {
+	background: yellow; 
+}
+
+/* use .class to select all class memebers */
+.completed {
+	text-decoration: line-through;  
+}
