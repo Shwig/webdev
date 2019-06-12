@@ -4,7 +4,9 @@
 # .html
 template.html
 exfonts.html
+exboxmodel.html
 
 # .css
 exselectors.css
 exfonts.css
+exboxmodel.css
