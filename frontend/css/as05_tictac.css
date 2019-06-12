@@ -1,22 +1,30 @@
-body {
-
+body { 
+	width: 50%;
+	margin: 0 auto; 	
 }
 
-p {
-
-	/* Content - Width and Height */
-	
-
-	/* Boreder */
-	
-
-	/* Padding  */
-	
-
-	/* Margin  */
-	
+p {	
+	text-align: center;
+	font-size: 2em;
+	margin: 20px auto;
 }
 
 table {
-	
+	margin: 0 auto;
+}
+
+table td {
+	text-align: center;	
+	width: 100px; 
+	height: 100px;
+}
+
+td:nth-of-type(2n) {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+} 
+
+tr:nth-of-type(2) td {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
