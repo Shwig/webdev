@@ -1,5 +1,8 @@
 # docs
 *.pdf
 
-# html
+# .html
 template.html
+
+# .css
+exselectors.css
