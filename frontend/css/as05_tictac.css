@@ -11,11 +11,13 @@ td {
 	height: 100px;
 }
 
+/* ceenter column */
 td:nth-of-type(2n) {
 	border-left: 2px solid black;
 	border-right: 2px solid black;
 } 
 
+/* center row */
 tr:nth-of-type(2) td {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
