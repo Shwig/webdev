@@ -1,0 +1,45 @@
+/* Type Selectors - Least Specificity */
+
+	/* Star - all elements on the page */
+	* {
+
+	}
+
+	/* Some Specificity */
+
+		/* Elements */
+		li {
+
+		}
+
+		/* Descendant Selector - ex. all anchor tags inside of an li*/
+		li a {
+
+		}
+
+		/* Adjacent Selector - ex. all ul's that come after an h4 as a sibling on the same level*/
+		h4 + ul {
+
+		}
+
+		/* nth of type - the 3rd ul in the in every group. try "even" instead of num*/
+		ul:nth-of-type(3){
+
+		}
+
+/* Class, Attribute, and Psseudo-Class Selectors - More Specificity */
+	.hello {
+
+	}
+
+	/* Attribute Selector - every anchor tag where href is google */
+	a[href="http://www.google.com"] {
+
+	}
+
+/* ID Selectors Most Specificity before inline styling */
+	#name {
+
+	}
+
+
